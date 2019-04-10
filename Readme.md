@@ -8,14 +8,14 @@ sudo apt-get install libusb-1.0-0-dev
 libusbcan.so libusbcan.so.1
 ```
 
-#将路径加入到root超级用户中
+###### 将路径加入到root超级用户中
 1.sudo su
 2.echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 3.source ~/.bashrc
-#开一个终端
+##### 开一个终端
 1.sudo su
 2.roscore 
-#重开一个终端
+##### 重开一个终端
 1.catkin_make clean
 2.catkin_make
 3.sudo su
