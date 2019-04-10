@@ -1,0 +1,2 @@
+int32 steering_target
+int32 acceleration
